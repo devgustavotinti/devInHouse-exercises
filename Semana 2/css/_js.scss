@@ -1,0 +1,11 @@
+section {
+  display: none;
+
+  &.visivel {
+    display: block;
+  }
+}
+
+main.sumir {
+  display: none;
+}

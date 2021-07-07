@@ -1,0 +1,9 @@
+@mixin caixa {
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px 3px rgba(199, 199, 199, 0.15);
+}

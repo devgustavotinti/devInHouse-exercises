@@ -1,0 +1,136 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #1a1a1a;
+  color: #fcfcfc;
+}
+
+body, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+section {
+  display: none;
+}
+
+section.visivel {
+  display: block;
+}
+
+main.sumir {
+  display: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1240px;
+  padding: 30px;
+  margin: 0 auto 30px auto;
+}
+
+header li:hover {
+  color: #D32F2F;
+  cursor: pointer;
+}
+
+main {
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 5px 15px 3px rgba(199, 199, 199, 0.15);
+          box-shadow: 5px 5px 15px 3px rgba(199, 199, 199, 0.15);
+}
+
+main h1 {
+  margin: 50px 0;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+main form label {
+  display: none;
+}
+
+main form input {
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 16px;
+}
+
+main form input:last-child {
+  margin-top: 40px;
+}
+
+main button {
+  margin-top: 60px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 16px;
+  width: 200px;
+  height: 60px;
+  background: #D32F2F;
+  border: none;
+  color: #fcfcfc;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #f7f7f7;
+  background: #F44336;
+}
+
+section {
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 5px 15px 3px rgba(199, 199, 199, 0.15);
+          box-shadow: 5px 5px 15px 3px rgba(199, 199, 199, 0.15);
+}
+
+section p {
+  font-size: 24px;
+  margin: 100px 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+@import 'caixa';
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1240px;
+
+  padding: 30px;
+  margin: 0 auto 30px auto;
+
+  li:hover {
+    color: #D32F2F;
+    cursor: pointer;
+  }
+}
+
+main {
+  @include caixa;
+
+
+  h1 {
+    margin: 50px 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+
+    label {
+      display: none;
+    }
+
+    input {
+      padding: 13px;
+      margin-top: 20px;
+      border-radius: 16px;
+
+      &:last-child {
+      margin-top: 40px;
+      }
+    }
+  }
+
+  button {
+    margin-top: 60px;
+  }
+}

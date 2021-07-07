@@ -1,0 +1,10 @@
+@import 'caixa';
+
+section {
+  @include caixa;
+
+  p {
+    font-size: 24px;
+    margin: 100px 0;
+  }
+}
